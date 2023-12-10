@@ -1,1 +1,72 @@
-/* Add screen styles below */
+html {
+    background-color: rgb(14, 14, 36);
+    font-family: 'Cascadia Code', sans-serif;
+    font-size: 100%;
+    color: white;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    margin: 0;
+}
+
+figure img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+figcaption {
+    text-align: center;
+}
+
+main {
+    background-image: url("images/free_img.jpg");
+    background-size: cover;
+    box-shadow: inset 0 0 0 2000px rgba(14, 14, 36, 0.7);
+    display: grid;
+    place-items: center;
+}
+
+#text {
+    margin: 0 30%;
+}
+
+#sidebar {
+    background-color: rgb(5, 5, 8);
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    margin-top: 30%;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    right: 30px;
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
