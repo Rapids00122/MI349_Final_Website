@@ -56,6 +56,14 @@ li {
     margin-bottom: 20px;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
