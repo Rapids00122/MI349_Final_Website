@@ -5,6 +5,12 @@ html {
     height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+}
+
 body {
     margin: 0;
     display: flex;
