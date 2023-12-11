@@ -5,6 +5,34 @@ html {
     height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+    body {
+        flex-direction: column;
+    }
+
+    #text, nav, footer {
+        margin: 0 10px;
+    }
+
+    #sidebar {
+        height: auto;
+        position: relative;
+    }
+
+    ul {
+        font-size: medium;
+    }
+
+    footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
 body {
     margin: 0;
     display: flex;
